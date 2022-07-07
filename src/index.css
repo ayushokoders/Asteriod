@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root{
+  background-image: url('https://astronomy.com/~/media/0C0BB4FD8FBF4881B060ABC18162BAE9.jpg');
+  background-size: cover;
+}
